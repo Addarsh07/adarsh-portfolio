@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adarsh Singh | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <a class="logo" href="#home">Adarsh Singh</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-text">
+        <p class="intro-label">HELLO, WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Adarsh Singh</span></h1>
+        <h2>First-Year B.Tech Student</h2>
+        <p>I am an engineering student interested in web development, programming and Generative AI. I enjoy learning new technologies and using them to build useful projects.</p>
+        <a class="button" href="#contact">Contact Me</a>
+      </div>
+      <div class="profile-image">
+        <img src="assets/adarsh-professional.jpg" alt="Professional photograph of Adarsh Singh">
+      </div>
+    </section>
+
+    <section class="section light-section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-intro">A little introduction about me, my education and my goals.</p>
+        <div class="about-content">
+          <p>My name is Adarsh Singh, and I am a first-year Bachelor of Technology (B.Tech) student. I am currently building my knowledge of programming and computer science. I have an interest in creating websites, exploring artificial intelligence and understanding how software works.</p>
+          <p>I like learning through practical work and personal projects. My goal is to improve my technical skills, take part in team projects and become a skilled software developer in the future.</p>
+          <div class="education-box">
+            <h3>Education</h3>
+            <p><strong>Bachelor of Technology (B.Tech)</strong><br>First Year Engineering Student</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-intro">Technologies and tools I am learning and practising.</p>
+      <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">C++</div>
+        <div class="skill">React.js</div>
+        <div class="skill">Generative AI</div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-intro">Some project ideas I have explored as part of my learning journey.</p>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div>
+              <h3>SurSpace – Singing Practice App</h3>
+              <p>A learning app concept for beginners who want to practise singing. It is planned to include note and scale exercises, pitch feedback and guided practice sessions.</p>
+              <p class="project-tech"><strong>Technologies:</strong> HTML, CSS and JavaScript</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div>
+              <h3>SpendWise – Monthly Expense Tracker</h3>
+              <p>A simple expense-management concept designed to help families organise monthly expenses, understand spending categories and manage a budget.</p>
+              <p class="project-tech"><strong>Technologies:</strong> HTML, CSS and Python</p>
+            </div>
+          </article>
+        </div>
+        <p class="note">Note: These are project concepts currently under exploration.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-intro">Feel free to contact me for questions, ideas or collaboration.</p>
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Let's connect</h3>
+          <p><strong>Name:</strong> Adarsh Singh</p>
+          <p><strong>Email:</strong> <a href="mailto:adarsh@example.com">adarsh@example.com</a></p>
+          <p class="note">Replace the sample email address with your own before submitting.</p>
+        </div>
+        <form action="mailto:adarsh@example.com" method="post" enctype="text/plain">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="Full Name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="Email Address" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="Subject" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="5" required></textarea>
+
+          <button class="button" type="submit">Submit</button>
+          <p class="note">This form uses your email application and does not store messages online.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p><strong>Adarsh Singh</strong></p>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <p>© 2026 Adarsh Singh. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
